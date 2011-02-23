@@ -1,0 +1,38 @@
+=== Posterous Plugin ===
+Contributors: redmark
+Donate link: http://www.redmark.gr/
+Tags: posterous, api
+Requires at least: 2.0.2
+Tested up to: 3.0.1
+Stable tag: 1.0
+
+Integration of your Posterous into Wordpress without importing (mostly) for those using Wordpress as a CMS
+
+== Description ==
+
+This plugin integrates your posterous plugin into your Wordpress installation. Requires that you create a page 
+that is going to represent the "blog" (posterous) section. Useful for people (like me) who use Wordpress as a 
+CMS and want their blog on Posterous (mine is http://fotis.posterous.com)
+
+== Installation ==
+
+This section describes how to install the plugin and get it working.
+
+1. Upload zip contents to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Copy the code inside `blog.php` into the page that represents the blog
+4. (Optional) Chmod 777 file /wp-content/plugins/posterous/cookie.txt
+
+== Frequently Asked Questions ==
+
+= Does this plugin import data into wordpress? =
+
+No, it's just an integration which means that data are load upon each request directly from posterous
+
+= I get errors about something called CURL. Now what?  =
+
+This probably means you don't have the cURL extension loaded into your PHP installation. Please contact your system administrator.
+
+= Where can i reach you?  =
+
+You can reach me at fotis@redmark.gr anytime ;)
